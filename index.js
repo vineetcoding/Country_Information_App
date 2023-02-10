@@ -32,6 +32,16 @@ search_btn.addEventListener('click', (e) => {
         console.log(result.innerHTML);
         console.log();
         console.log();
+    }).catch(()=>{
+        if(country_inpt.length == 0){
+            result.innerHTML = `<h3 class="error">*Please Enter Country Name</h3>`
+        }
+        else{
+            result.innerHTML = `<h3vclass="error">*Please Enter Valid Country Name</h3vclass=>`
+        }
+        setTimeout(()=>{
+            result.style.display = "none";
+        },1500)
     })
 })
 

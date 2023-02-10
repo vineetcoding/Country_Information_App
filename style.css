@@ -43,11 +43,12 @@ body{
     padding: 0.7em;
 }
 #result{
-    border: 1px solid rgb(167, 13, 121);
+    /* border: 1px solid rgb(167, 13, 121); */
     border-radius: 10px;
     padding: 4%;
     margin-top: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 #result>img{
     width: 40%;
@@ -59,7 +60,6 @@ body{
 }
 #result h3{
     display: inline;
-    
 }
 #result p, h3{
     text-align: center;
@@ -67,6 +67,7 @@ body{
 #result{
     display: none;
 }
+
 /* second way to center a Div using display flex it give to pairent */
 /* Note:- if we want to center a div inside the body with dispaly flex then we have to give hight as 100vh */
 /* body{
