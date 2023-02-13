@@ -65,6 +65,9 @@ body{
 #result{
     display: none;
 }
+.error{
+    color: red;
+}
 
 /* second way to center a Div using display flex it give to pairent */
 /* Note:- if we want to center a div inside the body with dispaly flex then we have to give hight as 100vh */
